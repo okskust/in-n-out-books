@@ -1,0 +1,35 @@
+/**
+============================================
+Title: book-list.component.scss
+Author: Oksana Kustova
+Date: 02/02/2022
+Description: Style for BookList component.
+===========================================
+*/
+
+
+.grid-container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: auto auto auto;
+  padding: 25px;
+}
+
+.grid-container__item {
+  padding: 20px;
+  font-size: 30px;
+}
+
+.grid-container__ahref {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.grid-container__ahref:hover {
+  text-decoration: underline;
+}
+
+.spinner {
+  margin-top: 2%;
+  margin-left: 45%;
+}

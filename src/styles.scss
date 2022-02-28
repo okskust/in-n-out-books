@@ -1,0 +1,49 @@
+/**
+============================================
+Title: style.scss
+Author: Oksana Kustova
+Date: 02/02/2022
+Description: global style for in-n-out-booksp1 app.
+===========================================
+*/
+
+@import './_theme';
+
+html, body {
+  height: 100%;
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.blue {
+  color: #2196F3;
+}
+
+.green {
+  color: #66BB6A;
+}
+
+.attribution-link {
+  text-decoration: none;
+  color: white;
+}
+
+.attribution-link:hover {
+  text-decoration: underline;
+}
+
+.card-title-icon {
+  text-align: center;
+
+}
+
+.card-title-icon, .mat-icon {
+  font-size: 72px;
+}
+
+.align-center {
+  text-align: center;;
+}

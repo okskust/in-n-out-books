@@ -1,0 +1,32 @@
+<!--
+============================================
+Title: book-details-dialog.component.html
+Author: Oksana Kustova
+Date: 02/05/2022
+Description: HTML template for BookDetailsDialogComponent.
+===========================================
+-->
+<mat-card>
+  <mat-card-title class="blue">
+    {{ book.title }}
+  </mat-card-title>
+  <br /><br />
+  <mat-card-content>
+    <div fxLayout="column" class="book-details">
+      <p>ISBN: {{ book.isbn }}</p>
+
+      <p>Description:</p>
+      <p class="description">{{ book.description }}</p>
+
+      <p>
+        Authors:
+        {{ book.authors.join(", ") }}
+      </p>
+    </div>
+  </mat-card-content>
+  <mat-card-actions align="end">
+    <button mat-raised-button color="accent" matDialogClose="confirm">
+      OK
+    </button>
+  </mat-card-actions>
+</mat-card>
